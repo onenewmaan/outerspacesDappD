@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x00000",
-  "SCAN_LINK": "https://polygonscan.com/token/",
+  "CONTRACT_ADDRESS": "0xfc0134960c5b1799726179a9c5540a615e63ed8a",
+  "SCAN_LINK": "https://etherscan.io/address/0xfc0134960c5b1799726179a9c5540a615e63ed8a",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
-  "NFT_NAME": "Cosmoapiens Degen",
-  "SYMBOL": "COSPIEN DEGEN",
+  "NFT_NAME": "Cosmoapiens Degen NFT",
+  "SYMBOL": "CDG",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/",
+  "MARKETPLACE_LINK": "https://opensea.io/outerspacesNFT",
   "SHOW_BACKGROUND": true
 }

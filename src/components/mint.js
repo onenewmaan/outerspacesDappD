@@ -139,28 +139,6 @@ export function Mint() {
             <div className="token__container">
                     <div className='token__container-section' >
                       <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}>
-                      Your passport to the sickest clubhouse on the blockchained metaverse. 
-                      All Cosmosapiens NFT holders will receive an early-bird status with early investor privileges and NFT giveaways,
-                      access to our metaverse virtual Cosmosapiens PODs, in-house designed Cosmosapiens NFT singed
-                      on Ethereum Blockchain and hosted on the distributed database.
-                      <br />
-                      <br />
-                      Cosmosapiens are the frame avatars and are the result of hand-drawn & code work, 
-                      each is unique and programmatically generated from over 150+ possible traits, 
-                      including expression, headwear, clothing, and more. 
-                      All cosmosapiens are dope, but some are rarer than others. 
-                      The cosmosapiens are stored as ERC-721 tokens on the blockchain and hosted on IPFS. 
-                      Purchasing a cosmosapien costs 0.05 ETH.
-                      To access members-only areas such as THE Cosmosapiens, 
-                      Cosmosapiens will need to be signed into their Metamask Wallet.
-                      </h2>
-                    </div>
-                  </div>
-                <p className="bottom-space-sm" />
-                  <h3 style={{display: 'flex',fontSize: '17px', textAlign: 'center', letterSpacing:'3px'}}><b>The Game Avatar</b></h3>
-            <div className="token__container">
-                    <div className='token__container-section' >
-                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}>
                       Drought, dropped oxygen levels and crop disease made Earth no longer a suitable home.
                     Earth's civilization starts to regress into a failing society, humanity is facing extinction.
                     Our only way out is up.An unknown inteligence opened up a wormhole in our near approximity.
@@ -171,17 +149,39 @@ export function Mint() {
                     </div>
                   </div>
                 <p className="bottom-space-sm" />
+
+                  <h3 style={{display: 'flex',fontSize: '17px', textAlign: 'center', letterSpacing:'3px'}}><b>The Game Avatar</b></h3>
+            
+                <p className="bottom-space-sm" />
+            <div className="token__container">
+                    <div className='token__container-section' >
+                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}>
+                      Your passport to the sickest clubhouse on the blockchained metaverse. 
+                      All Cosmosapiens Degen NFT holders will receive an early-bird status with early investor privileges and NFT giveaways, drops and
+                      access to our metaverse in-house designed NFT spaces.
+                      <br />
+                      <br />
+                      Cosmosapiens Degens are the frame avatars and are the result of hand-drawn & code work, 
+                      each is unique and programmatically generated from over 150+ possible traits, 
+                      including expression, headwear, clothing, and more. 
+                      All cosmosapiens are dope, but some are rarer than others. 
+                      The cosmosapiens are stored as ERC-721 tokens on the blockchain and hosted on IPFS. 
+                      </h2>
+                    </div>
+                  </div>
+                <p className="bottom-space-sm" />
+                  
                   <div className="token__container">
                   <div className="token__wrapper">
                   <h2 style={{marginBottom:'-15px'}}>♛</h2>
-                      <img src='images/web/polygon.png'  width="150px" style={{margin:'15px'}} alt=''  />
+                      <img src='images/web/ethereum.png'  width="150px" style={{margin:'15px'}} alt=''  />
                     <img src='images/web/crows.gif'  width="500px" style={{padding:'1px', opacity:'0.75'}} alt=''  />
 
                     </div>
                   </div>
               <div className='row'>
                 
-                <a href={'https://etherscan.io/token/0xDD9Be29403fd0Ef9cE4fFA1a1C824d430d25B323'}>
+                <a href={'https://etherscan.io/address/0xfc0134960c5b1799726179a9c5540a615e63ed8a'}>
                   <h3 style={{fontSize: '15px', margin: '0px 0px 0px 0px', opacity:1}}>contract</h3>
                 </a>
               </div>
@@ -219,8 +219,9 @@ export function Mint() {
                 <>
                   <div className='token__wrapper'>
                    <h3> 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL} </h3>
-                   <h3 style={{margin:'5px'}}>excluding gas fees.</h3>
-                   <h3 style={{fontSize: '10px'}}><i>*price doubles with each 100 sold</i></h3>
+                   <h3 style={{fontSize: '10px'}}><i>LOW GAS OPTIMIZATION</i></h3>
+                  <p className="bottom-space-xsm" />
+
                   </div>
                   <p className="bottom-space-xsm" />
                   {blockchain.account === "" ||
@@ -315,7 +316,7 @@ export function Mint() {
                   &emsp;Check us out:
                 </p>
                 <div className="img-zoom">
-                <a href={'https://opensea.io/collection/cosmosapiens'}>
+                <a href={'https://opensea.io/outerspacesNFT'}>
                   <img src='images/web/opensea.png'  width="250px" style={{margin:'0px'}} alt=''  />
                 </a>
                 </div>

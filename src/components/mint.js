@@ -42,7 +42,7 @@ export function Mint() {
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
-      .mint(mintAmount)
+      .mint(blockchain.account, mintAmount)
       .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
@@ -51,7 +51,7 @@ export function Mint() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Hmmm, seems like the chain needs more time to proccess... check etherscan");
         setClaimingNft(false);
       })
       .then((receipt) => {
@@ -63,6 +63,7 @@ export function Mint() {
         dispatch(fetchData(blockchain.account));
       });
   };
+
 
 
   const decrementMintAmount = () => {
@@ -121,7 +122,7 @@ export function Mint() {
                 </div>
                 <div className="row">
                 <h3 className="neon" style={{fontSize: '25px', fontFamily: 'neon', textAlign:'start'}}>
-                        YOGI
+                        DEGEN
                     </h3>
                 </div>
                 <div className='row' style={{display:'flex', flexDirection:'column'}}>
